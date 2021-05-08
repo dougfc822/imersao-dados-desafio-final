@@ -51,7 +51,7 @@ Demais Colunas são apresentações de inibidores, agonistas e antagonistas que 
 
 Para se aprofundar no tema de mecanismos de ação coloco aqui um artigo<br> https://en.wikipedia.org/wiki/Mechanism_of_action#:~:text=In%20pharmacology%2C%20the%20term%20mechanism,as%20an%20enzyme%20or%20receptor.
 
-##Conclusão
+## Conclusão
 
 Com os dados apresentados e modelo de Regressão Logística utilizado, foi possível concluir a utilidade de um modelo de Machine Learning com a finalidade de se mitigar riscos de erros de classificação de amostras de controle.
 
