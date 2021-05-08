@@ -2,6 +2,28 @@
 # Desafio Final Imersão Dados
 ![image](https://github.com/dougfc822/imersao-dados-desafio-final/blob/main/Header.jpg?raw=true)
 
+# Projeto Final Drug Discovery Alura 2021
+
+Autor: Douglas Chicaroni<br>
+Linkedin: https://www.linkedin.com/in/douglas-chicaroni/<br>
+e-mail: douglaschicaroni@gmail.com<br>
+Projeto elaborado durante imersão Alura de 03/05/2021 até 07/05/2021<br>
+**Última atualização feita em 08/05/2021**
+
+# Sumário do Projeto
+## Este projeto está dividido nas seguintes partes:
+* Finalidade do Projeto
+* Objetivo do Projeto
+* Importação dos Dados
+* Exploração dos Dados e análise de qualidade dos dados
+* Análise dos Dados
+* Modelagem de Machine Learning
+* Machine Learning
+* Conclusão do Projeto
+* Bibliografia
+* Sobre
+
+
 **Olá Cientistas!**
 
 Neste repositório você vai encontrar todas as informações necessárias para o desenvolvimento do projeto final da Imersão Dados.
