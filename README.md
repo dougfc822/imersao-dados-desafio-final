@@ -24,30 +24,35 @@ Projeto elaborado durante imersão Alura de 03/05/2021 até 07/05/2021<br>
 * Sobre
 
 ## Finalidade do Projeto
-Encontrar um modo de prever se ocorreu erro humano durante o processo de classificação do tipo de amostra no tratamento sendo ele erroneamento colocado como "controle" enquanto o mesmo deveria ser "com droga"
+Encontrar um modo de prever se ocorreu erro humano durante o processo de classificação do tipo de amostra no tratamento sendo ele erroneamente colocado como "controle" enquanto o mesmo deveria ser "com droga".
+
+## Fases do Projeto
+1. Analisar os compostos utilizados durante a pesquisa.
+1. Isolar o composto definido como controle durante o processo.
+1. Verificar sobre a possibilidade de se prever a se o tratamento é usado controle ou droga e se é possível se definir o composto de controle dentro de uma amostra de 50 drogas.
 
 ## Conclusão de Estrutura de Dados Experimentos
 Através da análise temos a seguinte estrutura dos dados:
-* id - coluna id seria a chave primária de cada teste, valor único definindo o teste em si.
-* tratamento - dois tipos de grupos de tratamento, temos um grupo que foi testado com o componente e um outro grupo de controle para verificar a real eficácia do mesmo.
-* tempo - neste campo estão os dados de tempo que a célula foi submetida pelo composto, neste caso temos 3 opções, 24, 48 e 72 horas.
-* dose - que foi a dose a que esta célula foi submetida, temos neste caso D1 e D2, dois tipos de opções
-* droga - a identificação de cada composto que foi utilizado no teste. O mesmo foi anonimizado para evitar qualquer conflito ou viés.
-* g-0 ao g-771 - Os genomas estudados em cada experimento
-* c-0 ao c-99 - É referente a linhagem celular e os valores são a viabilidade delas
+* id - Coluna id seria a chave primária de cada teste, valor único definindo o teste em si.
+* tratamento - Dois tipos de grupos de tratamento, temos um grupo que foi testado com o componente e um outro grupo de controle para verificar a real eficácia do mesmo.
+* tempo - Neste campo estão os dados de tempo que a célula foi submetida pelo composto, neste caso temos 3 opções, 24, 48 e 72 horas.
+* dose - A dose que foi utilizada em cada experimento, temos neste caso D1 e D2, dois tipos de opções.
+* droga - A identificação de cada composto que foi utilizado no teste. O mesmo foi anonimizado para evitar qualquer conflito ou viés.
+* g-0 ao g-771 - Os genomas estudados em cada experimento.
+* c-0 ao c-99 - É referente a linhagem celular e os valores destas.
 
 ## Conclusões da Análise de tratamento com controle e com droga
-* Temos um total de 23.814 testes
+* Temos um total de 23.814 testes.
 * Um total de 3289 compostos sendo testados, sendo que um deles é um placebo, sendo 3288 compostos especificos e 1 para controle
 * Temos um equilibrio nos testes.
 * O grupo de controle possui uma proporção de 11,71 em relação ao grupo de droga, acredito que o pesquisador tenha usado isto para otimizar o experimento.
-* Através da análise encontramos que o placebo é identificado como cacb2b860
+* Através da análise encontramos que o controle é identificado como cacb2b860.
 
 ## Estrutura de Dados Resultados
 Tabela que apresenta os resultados dos experimentos e suas reações
 * Coluna "id" - Apresenta a mesma chave primária dos dados experimentos, demostrando uma ligação com os dados relacionados ao compostos testados.<br>
 
-Demais Colunas são apresentações de inibidores, agonistas e antagonistas que são ativados ou não durante o teste. No caso ativados é 1 e não ativado é 0.
+Demais Colunas são apresentações de mecanismos de ativação("MOA") que são ativados ou não durante o teste. No caso ativados é 1 e não ativado é 0.
 
 Para se aprofundar no tema de mecanismos de ação coloco aqui um artigo<br> https://en.wikipedia.org/wiki/Mechanism_of_action#:~:text=In%20pharmacology%2C%20the%20term%20mechanism,as%20an%20enzyme%20or%20receptor.
 
